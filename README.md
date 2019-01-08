@@ -1,6 +1,8 @@
 # Edi.SyndicationFeedGenerator
 The .NET Core RSS/ATOM generator used in my blog system
 
+[![Build status](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_apis/build/status/Edi.SyndicationFeedGenerator-CI)](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_build/latest?definitionId=-1)
+
 ## Example Usage
 
 ```
