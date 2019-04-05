@@ -7,6 +7,9 @@
     <Company>edi.wang</Company>
     <PackageProjectUrl>https://edi.wang</PackageProjectUrl>
     <RepositoryUrl>https://github.com/EdiWang/Edi.SyndicationFeedGenerator</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <Description>RSS / ATOM generator used in my blog system</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

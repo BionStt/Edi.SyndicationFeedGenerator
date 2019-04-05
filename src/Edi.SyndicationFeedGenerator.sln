@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edi.SyndicationFeedGenerator", "Edi.SyndicationFeedGenerator\Edi.SyndicationFeedGenerator.csproj", "{C3A7813E-B047-41F3-9EC0-830F2B05B08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edi.SyndicationFeedGenerator", "Edi.SyndicationFeedGenerator\Edi.SyndicationFeedGenerator.csproj", "{C3A7813E-B047-41F3-9EC0-830F2B05B08E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99D6DACA-2CEA-44DF-835C-BEB344D310C9}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

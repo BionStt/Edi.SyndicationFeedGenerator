@@ -20,7 +20,7 @@ namespace Edi.SyndicationFeedGenerator
 
         #region Properties
 
-        public IList<SimpleFeedItem> FeedItemCollection { get; set; }
+        public IEnumerable<SimpleFeedItem> FeedItemCollection { get; set; }
 
         public int MaxContentLength { get; set; }
 
@@ -40,7 +40,7 @@ namespace Edi.SyndicationFeedGenerator
 
         #endregion
 
-        private List<SyndicationItem> GetSyndicationItemCollection(IList<SimpleFeedItem> itemCollection)
+        private IEnumerable<SyndicationItem> GetSyndicationItemCollection(IEnumerable<SimpleFeedItem> itemCollection)
         {
             var synItemCollection = new List<SyndicationItem>();
             foreach (var item in itemCollection)

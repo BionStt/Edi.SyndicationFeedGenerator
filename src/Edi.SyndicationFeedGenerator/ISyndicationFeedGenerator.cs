@@ -9,7 +9,7 @@ namespace Edi.SyndicationFeedGenerator
         string HeadDescription { get; set; }
         string HeadTitle { get; set; }
         string HostUrl { get; set; }
-        IList<SimpleFeedItem> FeedItemCollection { get; set; }
+        IEnumerable<SimpleFeedItem> FeedItemCollection { get; set; }
         int MaxContentLength { get; set; }
         string TrackBackUrl { get; set; }
     }
